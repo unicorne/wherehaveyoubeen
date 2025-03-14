@@ -1,0 +1,152 @@
+[
+    {
+        "endTime": "2024-12-01T12:30:00.000Z",
+        "startTime": "2024-12-01T11:00:00.000Z",
+        "activity": null,
+        "visit": {
+            "hierarchyLevel": "0",
+            "topCandidate": {
+                "placeLocation": "geo:48.858844,2.294351"
+            }
+        },
+        "timelinePath": null,
+        "timelineMemory": null
+    },
+    {
+        "endTime": "2024-12-01T12:45:00.000Z",
+        "startTime": "2024-12-01T12:30:00.000Z",
+        "activity": {
+            "probability": "0.98",
+            "end": "geo:48.860611,2.337644",
+            "topCandidate": {
+                "type": "in passenger vehicle",
+                "probability": "0.75"
+            },
+            "distanceMeters": "3500",
+            "start": "geo:48.858844,2.294351"
+        },
+        "visit": null,
+        "timelinePath": null,
+        "timelineMemory": null
+    },
+    {
+        "endTime": "2024-12-01T14:00:00.000Z",
+        "startTime": "2024-12-01T12:45:00.000Z",
+        "activity": null,
+        "visit": {
+            "hierarchyLevel": "0",
+            "topCandidate": {
+                "placeLocation": "geo:48.860611,2.337644"
+            }
+        },
+        "timelinePath": null,
+        "timelineMemory": null
+    },
+    {
+        "endTime": "2024-12-01T14:15:00.000Z",
+        "startTime": "2024-12-01T14:00:00.000Z",
+        "activity": {
+            "probability": "0.95",
+            "end": "geo:48.852968,2.349902",
+            "topCandidate": {
+                "type": "walking",
+                "probability": "0.85"
+            },
+            "distanceMeters": "1200",
+            "start": "geo:48.860611,2.337644"
+        },
+        "visit": null,
+        "timelinePath": null,
+        "timelineMemory": null
+    },
+    {
+        "endTime": "2024-12-01T15:30:00.000Z",
+        "startTime": "2024-12-01T14:15:00.000Z",
+        "activity": null,
+        "visit": {
+            "hierarchyLevel": "0",
+            "topCandidate": {
+                "placeLocation": "geo:48.852968,2.349902"
+            }
+        },
+        "timelinePath": null,
+        "timelineMemory": null
+    },
+    {
+        "endTime": "2024-12-01T15:45:00.000Z",
+        "startTime": "2024-12-01T15:30:00.000Z",
+        "activity": {
+            "probability": "0.97",
+            "end": "geo:48.886705,2.343104",
+            "topCandidate": {
+                "type": "in passenger vehicle",
+                "probability": "0.80"
+            },
+            "distanceMeters": "4500",
+            "start": "geo:48.852968,2.349902"
+        },
+        "visit": null,
+        "timelinePath": null,
+        "timelineMemory": null
+    },
+    {
+        "endTime": "2024-12-01T17:00:00.000Z",
+        "startTime": "2024-12-01T15:45:00.000Z",
+        "activity": null,
+        "visit": {
+            "hierarchyLevel": "0",
+            "topCandidate": {
+                "placeLocation": "geo:48.886705,2.343104"
+            }
+        },
+        "timelinePath": null,
+        "timelineMemory": null
+    },
+    {
+        "endTime": "2024-12-01T17:15:00.000Z",
+        "startTime": "2024-12-01T17:00:00.000Z",
+        "activity": {
+            "probability": "0.96",
+            "end": "geo:48.8738,2.2950",
+            "topCandidate": {
+                "type": "in passenger vehicle",
+                "probability": "0.78"
+            },
+            "distanceMeters": "3700",
+            "start": "geo:48.886705,2.343104"
+        },
+        "visit": null,
+        "timelinePath": null,
+        "timelineMemory": null
+    },
+    {
+        "endTime": "2024-12-01T18:30:00.000Z",
+        "startTime": "2024-12-01T17:15:00.000Z",
+        "activity": null,
+        "visit": {
+            "hierarchyLevel": "0",
+            "topCandidate": {
+                "placeLocation": "geo:48.8738,2.2950"
+            }
+        },
+        "timelinePath": null,
+        "timelineMemory": null
+    },
+    {
+        "endTime": "2024-12-01T18:45:00.000Z",
+        "startTime": "2024-12-01T18:30:00.000Z",
+        "activity": {
+            "probability": "0.94",
+            "end": "geo:48.8635,2.3274",
+            "topCandidate": {
+                "type": "walking",
+                "probability": "0.88"
+            },
+            "distanceMeters": "1100",
+            "start": "geo:48.8738,2.2950"
+        },
+        "visit": null,
+        "timelinePath": null,
+        "timelineMemory": null
+    }
+]

@@ -1,0 +1,55 @@
+map:
+  # Center point for the map
+  center_point: [38.7223, -9.1393]
+  # Distance in meters for the map area (30km radius)
+  dist: 30000
+  # Time range for the data
+  start: "2024-01-01T00:00:00.000Z"
+  end: "2024-12-31T23:59:59.999Z"
+
+preprocessing:
+  start: "2024-12-01T00:00:00.000Z"
+  end: "2025-12-31T23:59:59.999Z"
+  # Path to the location history JSON file
+  location_path: "location_data/location-history.json"
+  # Output file for preprocessed data
+  output_file: "preprocessed_data/preprocessed_data.json"
+
+compute:
+  # Number of parallel workers for route computation
+  max_workers: 8
+  # Cache size for nearest node lookups (in MB)
+  cache_size: 1000
+
+visualization:
+  # Map settings
+  zoom_start: 10
+  map_style: "openstreetmap"
+  
+  # Activity types to show
+  selected_activity_types: ["walking", "in passenger vehicle"]
+  
+  # Colors
+  timeline_color: "#000000"
+  visits_color: "#00FF00"
+  walking_color: "#0000FF"
+  driving_color: "#FF0000"
+  
+  # Opacity settings
+  timeline_opacity: 0.6
+  visits_opacity: 0.6
+  walking_opacity: 0.6
+  driving_opacity: 0.6
+  
+  # Radius settings
+  timeline_radius: 3
+  visits_radius: 3
+  walking_radius: 2
+  driving_radius: 2
+  
+  # Features
+  show_heatmap: false
+  show_images: true
+  image_folder: "images"
+  max_image_distance_km: 30
+  max_image_width: 300

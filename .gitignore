@@ -1,0 +1,15 @@
+images/own_images/*
+.DS_Store
+.ipynb_checkpoints/*
+.ipynb_checkpoints
+cache/*
+location_data/own_data/*
+preprocessed_data/own_data/*
+debug.ipynb
+test.ipynb
+*.ipynb
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
