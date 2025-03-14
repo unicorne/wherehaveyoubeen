@@ -168,7 +168,7 @@ You can include an folder with images. All images with existing geo tag are adde
 
 ## Route calculation
 
-Relies on [OSMnx]{https://osmnx.readthedocs.io/en/stable/}. 
+Relies on [OSMnx](https://osmnx.readthedocs.io/en/stable/). 
 
 
 
