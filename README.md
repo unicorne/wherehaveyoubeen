@@ -12,9 +12,15 @@ This project processes location data to create detailed, interactive maps showin
 - Photo integration with GPS data (if available)
 
 ## Example
+
+#### Lisbon
 ![lisbon](https://github.com/user-attachments/assets/61acc146-f21c-40ab-ab4b-f19c76ba7dd1)
 
 ![lisbon2](https://github.com/user-attachments/assets/5d647e94-432e-4269-b6d8-378de7cbc0dc)
+
+#### Paris
+
+![paris](https://github.com/user-attachments/assets/701fa759-7f0f-40e7-89c6-b18882879b2e)
 
 
 ## Features
