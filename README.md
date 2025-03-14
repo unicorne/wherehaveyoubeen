@@ -11,6 +11,12 @@ This project processes location data to create detailed, interactive maps showin
 - Optional heatmap visualization
 - Photo integration with GPS data (if available)
 
+## Example
+![lisbon](https://github.com/user-attachments/assets/61acc146-f21c-40ab-ab4b-f19c76ba7dd1)
+
+![lisbon2](https://github.com/user-attachments/assets/5d647e94-432e-4269-b6d8-378de7cbc0dc)
+
+
 ## Features
 
 - **Route Processing**: Automatically detects and visualizes walking and driving routes
@@ -82,6 +88,8 @@ visualization:
   driving_opacity: 0.8
 ```
 
+Experiment with cardboard styles: e.g [here](https://deparkes.co.uk/2016/06/10/folium-map-tiles/)
+
 ## Usage
 
 1. Process your location data:
@@ -122,7 +130,7 @@ The input JSON file should contain location data in the following format:
 }
 ```
 
-This is the format exported from your Google Maps timeline. [See here]{https://support.google.com/maps/thread/280205453/how-do-i-download-my-timeline-history?hl=en}
+This is the format exported from your Google Maps timeline. [See here](https://support.google.com/maps/thread/280205453/how-do-i-download-my-timeline-history?hl=en) 
 
 ## Output
 
