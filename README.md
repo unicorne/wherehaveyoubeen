@@ -73,7 +73,7 @@ compute:
 
 visualization:
   zoom_start: 13
-  map_style: "cartodbpositron"
+  map_style: "cartodbdark_matter"
   selected_activity_types: ["walking", "in passenger vehicle"]
   show_heatmap: true
   show_images: true
